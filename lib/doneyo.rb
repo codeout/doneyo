@@ -1,5 +1,2 @@
-require "doneyo/version"
-
-module Doneyo
-  # Your code goes here...
-end
+require 'doneyo/version'
+require 'doneyo/yo'
