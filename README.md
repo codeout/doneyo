@@ -15,19 +15,24 @@ $ sleep 5; yo
 
 ## Installation
 
-You can choose one of two options:
+You can choose one of three options:
 
-### Rubygem
+### 1. Rubygem
 
 ```shell
 $ gem install doneyo
 ```
 
-### Go
+### 2. Go
 
 ```shell
 $ go get github.com/codeout/doneyo/go/yo
 ```
+
+### 3. Download a Binary
+
+1. Download a zip archive for your system from [the release page](https://github.com/codeout/doneyo/releases/latest).
+2. Extract it into somewhere in your $PATH.
 
 ## Configuration
 
