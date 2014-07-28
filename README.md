@@ -36,7 +36,7 @@ $ go get github.com/codeout/doneyo/go/yo
 
 ## Configuration
 
-Doneyo will look in ```~/.yorc``` for your Yo username.
+Doneyo will look in ```~/.yorc``` for your Yo username to notify.
 
 ```
 # ~/.yorc
