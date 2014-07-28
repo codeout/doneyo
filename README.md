@@ -1,31 +1,40 @@
-# Doneyo
+# Done Yo
 
-TODO: Write a gem description
+[![Code Climate](https://codeclimate.com/github/codeout/doneyo.png)](https://codeclimate.com/github/codeout/doneyo)
 
-## Installation
+Yo you when time-consuming shell commands are done.
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'doneyo'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install doneyo
 
 ## Usage
 
-TODO: Write usage instructions here
+Invoke ```yo``` just after a task which takes long is done.
 
-## Contributing
+```shell
+$ sleep 5; yo
+```
 
-1. Fork it ( https://github.com/[my-github-username]/doneyo/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+## Installation
+
+You can choose one of two options:
+
+### Rubygem
+
+```shell
+$ gem install doneyo
+```
+
+### Go
+
+```shell
+$ go get github.com/codeout/doneyo/go/yo
+```
+
+## Configuration
+
+Doneyo will look in ```~/.yorc``` for your Yo username.
+
+```
+# ~/.yorc
+[user]
+name = your_yo_username
+```
