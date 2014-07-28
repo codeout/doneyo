@@ -67,6 +67,11 @@ func askUser() {
 }
 
 func createConfigFile(user string) {
+	if user == "" {
+		fmt.Fprintln(os.Stderr, "Username required")
+		os.Exit(1)
+	}
+
 	error := ioutil.WriteFile(ConfigFile(), []byte(initialConfig(user)), 0644)
 	if error != nil { panic(error) }
 }
